@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 33,
+            "activePatchIndex": 95,
             "patches": [
                 {
                     "date": 1682961824477,
@@ -140,6 +140,254 @@
                 {
                     "date": 1682963114546,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div class=\"navbar\"> \n         <ul>\n             <li>FEY</li>\n             <li>Login</li>\n-            <li>Requet Acess</li>\n+            <li>Request Acess</li>\n         </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682963357228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div class=\"navbar\"> \n         <ul>\n             <li>FEY</li>\n             <li>Login</li>\n-            <li>Request Acess</li>\n+            <li>Request Access</li>\n         </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682963427958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <link rel=\"stylesheet\" href=\"styles.css\">\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n"
+                },
+                {
+                    "date": 1682963951923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,9 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n-        <ul>\n-            <li>FEY</li>\n-            <li>Login</li>\n-            <li>Request Access</li>\n-        </ul>\n+        <a href=\"#\">Fey</a>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682963972931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n </head>\n <body>\n     <div class=\"navbar\"> \n         <a href=\"#\">Fey</a>\n+        <a href=\"#\">Login</a>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682963987574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n <body>\n     <div class=\"navbar\"> \n         <a href=\"#\">Fey</a>\n         <a href=\"#\">Login</a>\n+        <a href=\"#\">Request Acess</a>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682964169368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,11 @@\n     <link rel=\"stylesheet\" href=\"styles.css\">\n     <title>Product Website</title>\n </head>\n <body>\n-    <div class=\"navbar\"> \n-        <a href=\"#\">Fey</a>\n-        <a href=\"#\">Login</a>\n-        <a href=\"#\">Request Acess</a>\n-    </div>\n+    <nav>\n+        \n+    </nav>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n"
+                },
+                {
+                    "date": 1682964179811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <nav>\n-        \n+        <ul> \n+            \n+        </ul>\n     </nav>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682964212571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n     <link rel=\"stylesheet\" href=\"styles.css\">\n     <title>Product Website</title>\n </head>\n <body>\n-    <nav>\n-        <ul> \n-            \n-        </ul>\n-    </nav>\n+    <div class=\"navbar\"> \n+        <li<a href=\"#\">Fey</a></li>\n+        <a href=\"#\">Login</a>\n+        <a href=\"#\">Request Acess</a>\n+    </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n"
+                },
+                {
+                    "date": 1682964226771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n-        <li<a href=\"#\">Fey</a></li>\n-        <a href=\"#\">Login</a>\n-        <a href=\"#\">Request Acess</a>\n+        <li> </li>a href=\"#\">Fey</a></li>\n+        <li> <a href=\"#\">Login</a> </li>\n+        <li> </li><a href=\"#\">Request Acess</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682964239744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n-        <li> </li>a href=\"#\">Fey</a></li>\n-        <li> <a href=\"#\">Login</a> </li>\n+        <li> </li><a href=\"#\">Fe y</a> </li>\n+        <li> <a href=\"#\">Login</a>  </li>\n         <li> </li><a href=\"#\">Request Acess</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682964245323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n-        <li> </li><a href=\"#\">Fe y</a> </li>\n+        <li> <a href=\"#\">Fe y</a> </li>\n         <li> <a href=\"#\">Login</a>  </li>\n         <li> </li><a href=\"#\">Request Acess</a> </li>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682964251623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n-        <li> <a href=\"#\">Fe y</a> </li>\n+        <li> <a href=\"#\">Fey</a> </li>\n         <li> <a href=\"#\">Login</a>  </li>\n-        <li> </li><a href=\"#\">Request Acess</a> </li>\n+        <li> <a href=\"#\">Request Acess</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682964300780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,14 @@\n     <link rel=\"stylesheet\" href=\"styles.css\">\n     <title>Product Website</title>\n </head>\n <body>\n-    <div class=\"navbar\"> \n+    <div class=\"navbar\">\n+        <ul>\n         <li> <a href=\"#\">Fey</a> </li>\n         <li> <a href=\"#\">Login</a>  </li>\n         <li> <a href=\"#\">Request Acess</a> </li>\n+    </ul>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682964308451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,12 @@\n </head>\n <body>\n     <div class=\"navbar\">\n         <ul>\n-        <li> <a href=\"#\">Fey</a> </li>\n-        <li> <a href=\"#\">Login</a>  </li>\n-        <li> <a href=\"#\">Request Acess</a> </li>\n-    </ul>\n+            <li> <a href=\"#\">Fey</a> </li>\n+            <li> <a href=\"#\">Login</a>  </li>\n+            <li> <a href=\"#\">Request Acess</a> </li>\n+       </ul>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682964424097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <body>\n     <div class=\"navbar\">\n         <ul>\n             <li> <a href=\"#\">Fey</a> </li>\n-            <li> <a href=\"#\">Login</a>  </li>\n+            <li> <a href=\"#\">Login</a> </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682964444925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\">\n-        <ul>\n+        <ul class=\"navbar\">\n             <li> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n        </ul>\n"
+                },
+                {
+                    "date": 1682964460089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <link rel=\"stylesheet\" href=\"styles.css\">\n     <title>Product Website</title>\n </head>\n <body>\n-    <div class=\"navbar\">\n+    <div>\n         <ul class=\"navbar\">\n             <li> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n"
+                },
+                {
+                    "date": 1682965125099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n </head>\n <body>\n     <div>\n         <ul class=\"navbar\">\n-            <li> <a href=\"#\">Fey</a> </li>\n+            <li> <a hre f=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n        </ul>\n     </div>\n"
+                },
+                {
+                    "date": 1682965135927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n </head>\n <body>\n     <div>\n         <ul class=\"navbar\">\n-            <li> <a hre f=\"#\">Fey</a> </li>\n+            <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n        </ul>\n     </div>\n"
+                },
+                {
+                    "date": 1682965201629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n+            <li> | </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682965207969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <li> | </li>\n+            <li class=\"bisection\"> | </li>\n             <li> <a href=\"#\">Request Acess</a> </li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682965430302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li> <a href=\"#\">Request Acess</a> </li>\n+            <li> <a href=\"#\">Request Access</a> </li>\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682965438569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li> <a href=\"#\">Request Access</a> </li>\n+            <li class=\"button\"> <a href=\"#\">Request Access</a> </li>\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682967706753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li class=\"button\"> <a href=\"#\">Request Access</a> </li>\n        </ul>\n+       class=\"button\"> <a href=\"#\">Request Access</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682967712570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n        </ul>\n-       class=\"button\"> <a href=\"#\">Request Access</a> </li>\n+    <a href=\"#\">Request Access</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682967726767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,11 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n+            <a class=\"button\" href=\"#\">Request Access</a> </li>\n        </ul>\n-    <a href=\"#\">Request Access</a> </li>\n+\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682967734506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,10 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <a class=\"button\" href=\"#\">Request Access</a> </li>\n        </ul>\n-\n+       <a class=\"button\" href=\"#\">Request Access</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682967749063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n+            <li class=\"button\"> <a href=\"#\">Request Access</a> </li>\n        </ul>\n-       <a class=\"button\" href=\"#\">Request Access</a> </li>\n     </div>\n \n     <div class=\"main-content\">\n         <p>Available now</p>\n"
+                },
+                {
+                    "date": 1682967797971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li class=\"button\"> <a href=\"#\">Request Access</a> </li>\n+            <li class=\"button\"> <button href=\"#\">Request Access</button> </li>\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682967815560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li class=\"button\"> <button href=\"#\">Request Access</button> </li>\n+            <li class=\"button\"> <a href=\"#\">Request Access</a> </li>\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682968209629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li class=\"button\"> <a href=\"#\">Request Access</a> </li>\n+            <li class=\"button\"> Request Access</li>\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682968335898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n             <li class=\"bisection\"> | </li>\n-            <li class=\"button\"> Request Access</li>\n+            <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                },
+                {
+                    "date": 1682968409631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <li class=\"bisection\"> | </li>\n+            <div class=\"bisect\"></div>\n             <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682968500176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <div class=\"bisect\"></div>\n+            <li><div class=\"bisect\"></div></li>\n             <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682968506800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <li><div class=\"bisect\"></div></li>\n+            <li><div class=\"bisect\"></div> </li>\n             <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682968529937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <li><div class=\"bisect\"></div> </li>\n+            <div class=\"bisect\"></div>\n             <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682968804482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <div class=\"bisect\"></div>\n+            <li><div class=\"bisect\"></div> </li>\n             <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682968854248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div>\n         <ul class=\"navbar\">\n             <li class=\"logo\"> <a href=\"#\">Fey</a> </li>\n             <li> <a href=\"#\">Login</a> </li>\n-            <li><div class=\"bisect\"></div> </li>\n+            <div class=\"bisect\"></div>\n             <li class=\"button\"><a> Request Access </a></li>\n        </ul>\n     </div>\n \n"
+                },
+                {
+                    "date": 1682969371794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n-        <p>Available now</p>\n+        <p class=\"heading\">Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n"
+                },
+                {
+                    "date": 1682970397794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n        </ul>\n     </div>\n \n     <div class=\"main-content\">\n-        <p class=\"heading\">Available now</p>\n-        <h1>The ultimate experience for the modern investor</h1>\n+        <p class=\"blured-heading\">Available now</p>\n+        <h1 class=\"\">The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n"
+                },
+                {
+                    "date": 1682970411147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     </div>\n \n     <div class=\"main-content\">\n         <p class=\"blured-heading\">Available now</p>\n-        <h1 class=\"\">The ultimate experience for the modern investor</h1>\n+        <h1 class=\"headding\">The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n"
+                },
+                {
+                    "date": 1682970452845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     </div>\n \n     <div class=\"main-content\">\n         <p class=\"blured-heading\">Available now</p>\n-        <h1 class=\"headding\">The ultimate experience for the modern investor</h1>\n+        <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n"
+                },
+                {
+                    "date": 1682970636988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \n     <div class=\"main-content\">\n         <p class=\"blured-heading\">Available now</p>\n         <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n-        <p>Press A anytime to request access</p>\n+        <p class=\"request\">Press A anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n"
+                },
+                {
+                    "date": 1682970814547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \n     <div class=\"main-content\">\n         <p class=\"blured-heading\">Available now</p>\n         <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n-        <p class=\"request\">Press A anytime to request access</p>\n+        <p class=\"request\">Press <span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n"
+                },
+                {
+                    "date": 1682970824160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \n     <div class=\"main-content\">\n         <p class=\"blured-heading\">Available now</p>\n         <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n-        <p class=\"request\">Press <span>A</span>anytime to request access</p>\n+        <p class=\"request\">Press<span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n"
+                },
+                {
+                    "date": 1682971201452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,10 @@\n         <p class=\"request\">Press<span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n-        <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n+        <p class=\"reque\n+        \">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1>Immerse yourself.</h1>\n"
+                },
+                {
+                    "date": 1682971211512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,10 @@\n         <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n         <p class=\"request\">Press<span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n-        <h1>See the big picture.</h1>\n-        <p class=\"reque\n-        \">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n+        <h1 class=\"heading\">See the big picture.</h1>\n+        <p class=\"request\">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1>Immerse yourself.</h1>\n"
+                },
+                {
+                    "date": 1682971396084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         <p class=\"request\">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n-        <h1>Immerse yourself.</h1>\n+        <h1 class=\"heading\">Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682971403740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,8 @@\n         <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading\">Immerse yourself.</h1>\n-        <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n+        <p class=\"request\">Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682971514283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1 class=\"heading\">See the big picture.</h1>\n         <p class=\"request\">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n-        <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n+        <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading\">Immerse yourself.</h1>\n         <p class=\"request\">Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n"
+                },
+                {
+                    "date": 1682971534217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <h1 class=\"heading\">See the big picture.</h1>\n         <p class=\"request\">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n+        <img class=\"laptop\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading\">Immerse yourself.</h1>\n         <p class=\"request\">Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1682971873827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,14 +22,14 @@\n         <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n         <p class=\"request\">Press<span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n-        <h1 class=\"heading\">See the big picture.</h1>\n+        <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"request\">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img class=\"laptop\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n-        <h1 class=\"heading\">Immerse yourself.</h1>\n+        <h1 class=\"heading3\">Immerse yourself.</h1>\n         <p class=\"request\">Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682971993191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         <p class=\"request\">Press<span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1 class=\"heading2\">See the big picture.</h1>\n-        <p class=\"request\">Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n+        <p class=\"request\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img class=\"laptop\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading3\">Immerse yourself.</h1>\n"
+                },
+                {
+                    "date": 1682972044242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         <p class=\"request\">Press<span>A</span>anytime to request access</p>\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1 class=\"heading2\">See the big picture.</h1>\n-        <p class=\"request\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n+        <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img class=\"laptop\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading3\">Immerse yourself.</h1>\n"
+                },
+                {
+                    "date": 1682972385727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,8 @@\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img class=\"laptop\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading3\">Immerse yourself.</h1>\n-        <p class=\"request\">Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n+        <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682972998001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img class=\"laptop\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n+        <img class=\"stat_page\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading3\">Immerse yourself.</h1>\n         <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1682973639329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <div class=\"main-content\">\n         <p class=\"blured-heading\">Available now</p>\n         <h1 class=\"heading\">The ultimate experience for the modern investor</h1>\n         <p class=\"request\">Press<span>A</span>anytime to request access</p>\n-        <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n+        <img class=\"mx-100\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n"
+                },
+                {
+                    "date": 1682973651431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         <img class=\"mx-100\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n-        <img class=\"laptop\" src=\"images/home.png\" alt=\"app home page\"> \n+        <img class=\"mx-100\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img class=\"stat_page\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading3\">Immerse yourself.</h1>\n         <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n"
+                },
+                {
+                    "date": 1682973683043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"mx-100\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img class=\"stat_page\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n+        <img class=\".mx-300\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"heading3\">Immerse yourself.</h1>\n         <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1682973714436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n         <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"mx-100\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img class=\".mx-300\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n-        <h1 class=\"heading3\">Immerse yourself.</h1>\n+        <img class=\"stat_page\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n+        <h1 class=\"mx-300\">Immerse yourself.</h1>\n         <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682973732861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <h1 class=\"heading2\">See the big picture.</h1>\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"mx-100\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img class=\"stat_page\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n+        <img class=\"mx-300\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1 class=\"mx-300\">Immerse yourself.</h1>\n         <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1682973753458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         <p class=\"light-paragraph\">Know whats happen and what might happen next. Fey lets <br>you keep an eye on the markets while consolidating your porfolio</p>\n         <img class=\"mx-100\" src=\"images/home.png\" alt=\"app home page\"> \n \n         <img class=\"mx-300\" src=\"images/stat_page.png\" alt=\"stat_page\"> \n-        <h1 class=\"mx-300\">Immerse yourself.</h1>\n+        <h1 class=\"mx-100\">Immerse yourself.</h1>\n         <p class=\"light-paragraph\">Our asset pages are more than just beautiful. Dig deeper through <br>financials, news estimates and more from anywhere in the app.</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1682961824477,
