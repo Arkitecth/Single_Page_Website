@@ -1,0 +1,150 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 33,
+            "patches": [
+                {
+                    "date": 1682961824477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1682961830110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+<!DOCTYPE html>\n+<html lang=\"en\">\n+<head>\n+    <meta charset=\"UTF-8\">\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+    <title>Document</title>\n+</head>\n+<body>\n+    \n+</body>\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962218386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Document</title>\n+    <title></title>\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1682962251566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title></title>\n+    <title>Product Website</title>\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1682962264696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Product Website</title>\n </head>\n <body>\n-    \n+    <div> \n+        \n+    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962270512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Product Website</title>\n </head>\n <body>\n-    <div> \n-        \n+    <div class=\"navbar\"> \n+\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962312121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     <title>Product Website</title>\n </head>\n <body>\n     <div class=\"navbar\"> \n-\n+        <ul>\n+        </ul>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962317994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n </head>\n <body>\n     <div class=\"navbar\"> \n         <ul>\n+            <li> FEY</li>\n         </ul>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962330345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n </head>\n <body>\n     <div class=\"navbar\"> \n         <ul>\n-            <li> FEY</li>\n+            <li>FEY</li>\n+            <li>Go Login</li>\n         </ul>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962340660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n <body>\n     <div class=\"navbar\"> \n         <ul>\n             <li>FEY</li>\n-            <li>Go Login</li>\n+            <li>Login</li>\n         </ul>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962348384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     <div class=\"navbar\"> \n         <ul>\n             <li>FEY</li>\n             <li>Login</li>\n+            <li>Requet Acess</li>\n         </ul>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962384882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,10 @@\n             <li>Login</li>\n             <li>Requet Acess</li>\n         </ul>\n     </div>\n+\n+    <div class=\"header\">\n+\n+    </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962401267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,8 @@\n         </ul>\n     </div>\n \n     <div class=\"header\">\n-\n+        <p>Available now</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962422545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,8 @@\n     </div>\n \n     <div class=\"header\">\n         <p>Available now</p>\n+        <h1>The ultimate experience for the modern investor</h1>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962435895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,8 @@\n \n     <div class=\"header\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n+        <p>Press A anytime to request access</p>\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962602450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n     <div class=\"header\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n+        <img src=\"\" alt=\"\">\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962614785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,8 @@\n     <div class=\"header\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n-        <img src=\"\" alt=\"\">\n+        <img src=\"images/laptop.png\" alt=\"\">\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962620035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,8 @@\n     <div class=\"header\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n-        <img src=\"images/laptop.png\" alt=\"\">\n+        <img src=\"images/laptop.png\" alt=\"laptop\">\n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962636531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,8 @@\n     <div class=\"header\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n-        <img src=\"images/laptop.png\" alt=\"laptop\">\n+        <img src=\"images/laptop.png\" alt=\"laptop\">  \n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962679967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n             <li>Requet Acess</li>\n         </ul>\n     </div>\n \n-    <div class=\"header\">\n+    <div class=\"main-content\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\">  \n"
+                },
+                {
+                    "date": 1682962692336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,7 +19,17 @@\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\">  \n+\n+        <p>Available now</p>\n+        <h1>The ultimate experience for the modern investor</h1>\n+        <p>Press A anytime to request access</p>\n+        <img src=\"images/laptop.png\" alt=\"laptop\"> \n+\n+        <p>Available now</p>\n+        <h1>The ultimate experience for the modern investor</h1>\n+        <p>Press A anytime to request access</p>\n+        <img src=\"images/laptop.png\" alt=\"laptop\"> \n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962716697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,12 @@\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n \n+        <img src=\"images/laptop.png\" alt=\"laptop\"> \n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n-        <img src=\"images/laptop.png\" alt=\"laptop\"> \n+      \n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962736205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,9 @@\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n-        <p>Available now</p>\n-        <h1>The ultimate experience for the modern investor</h1>\n+        <h1>Immerse yourself.</h1>\n         <p>Press A anytime to request access</p>\n       \n     </div>\n </body>\n"
+                },
+                {
+                    "date": 1682962764177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n         <h1>Immerse yourself.</h1>\n-        <p>Press A anytime to request access</p>\n+        <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n       \n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682962840347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n-        <img src=\"images/laptop.png\" alt=\"laptop\"> \n+        <img src=\"images/home.png\" alt=\"laptop\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n         <h1>Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n"
+                },
+                {
+                    "date": 1682962846612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,8 @@\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\">  \n \n-        <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/home.png\" alt=\"laptop\"> \n \n"
+                },
+                {
+                    "date": 1682962862417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\">  \n \n-        <h1>The ultimate experience for the modern investor</h1>\n+        <h1>See the big picture.</h1>\n         <p>Press A anytime to request access</p>\n         <img src=\"images/home.png\" alt=\"laptop\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n"
+                },
+                {
+                    "date": 1682962891307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         <p>Press A anytime to request access</p>\n         <img src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n-        <p>Press A anytime to request access</p>\n+        <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img src=\"images/home.png\" alt=\"laptop\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n         <h1>Immerse yourself.</h1>\n"
+                },
+                {
+                    "date": 1682962941329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,13 @@\n     <div class=\"main-content\">\n         <p>Available now</p>\n         <h1>The ultimate experience for the modern investor</h1>\n         <p>Press A anytime to request access</p>\n-        <img src=\"images/laptop.png\" alt=\"laptop\">  \n+        <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n-        <img src=\"images/home.png\" alt=\"laptop\"> \n+        <img src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n         <h1>Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n"
+                },
+                {
+                    "date": 1682962949957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n-        <img src=\"images/home.png\" alt=\"app home page\"> \n+        <img class=\"home\"src=\"images/home.png\" alt=\"app home page\"> \n \n         <img src=\"images/laptop.png\" alt=\"laptop\"> \n         <h1>Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n"
+                },
+                {
+                    "date": 1682963021277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,11 @@\n         <img class=\"laptop\" src=\"images/laptop.png\" alt=\"laptop\">  \n \n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n-        <img class=\"home\"src=\"images/home.png\" alt=\"app home page\"> \n+        <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img src=\"images/laptop.png\" alt=\"laptop\"> \n+        <img src=\"images/stat_page.png\" alt=\"laptop\"> \n         <h1>Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n       \n     </div>\n"
+                },
+                {
+                    "date": 1682963032272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         <h1>See the big picture.</h1>\n         <p>Know whats happen and what might happen next. Fey lets  you keep an eye on the markets whule consolidating your porfolio</p>\n         <img class=\"home\" src=\"images/home.png\" alt=\"app home page\"> \n \n-        <img src=\"images/stat_page.png\" alt=\"laptop\"> \n+        <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1>Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n       \n     </div>\n"
+                },
+                {
+                    "date": 1682963065089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,7 @@\n \n         <img src=\"images/stat_page.png\" alt=\"stat_page\"> \n         <h1>Immerse yourself.</h1>\n         <p>Our asset pages are more than just beautiful. Dig deeper through financials, news estimates and more from anywhere in the app.</p>\n-      \n     </div>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1682963114546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <div class=\"navbar\"> \n         <ul>\n             <li>FEY</li>\n             <li>Login</li>\n-            <li>Requet Acess</li>\n+            <li>Request Acess</li>\n         </ul>\n     </div>\n \n     <div class=\"main-content\">\n"
+                }
+            ],
+            "date": 1682961824477,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}
